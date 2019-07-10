@@ -7,10 +7,10 @@ function alert_name() {
 function change_image() {
   var image = document.getElementById('hk');
   if (image.src.match("scrunch2")) {
-    image.src = "img/hk.jpg";
+    image.src = "Img/hk.jpg";
   }
   else {
-    image.src = "img/scrunch2.jpg";
+    image.src = "Img/scrunch2.jpg";
   }
 }
 
