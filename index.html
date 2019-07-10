@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- ID is specific, classes can be assigned to multiple -->
+<html>
+  <head>
+    <!-- This is how to comment -->
+    <!-- This is where page info goes -->
+    <title>About Me</title>
+    <link rel="stylesheet" href="home.css">
+    <script src="home.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <button onclick="alert_name()">Click me!</button>
+    <button onclick="change_image()" value="Change">Change image</button>
+    <img onmouseover="bigImg(this)" onmouseout="normalImg(this)"src="img/shrimp.jpg" alt="Shrimp" width="100" height="100">
+    <div>
+      <h1 id='name'>Jennie Van</h1>
+      <div id="images">
+        <img alt="Hello Kitty"id="hk" src="img/hk.jpg"></img>
+        <!--<img src="img/scrunch2.jpg"></img>-->
+        <!--<img src="img/stat.jpg"></img>-->
+      </div>
+      <h3 class="blue_text">About Me:</h3>
+      <p>I'm a basic, introverted girl from California. In my free time, I like to read, explore social media, and go shopping. You’ll usually find me chilling at home watching YouTube or listening to music.</p>
+      <p>
+        <strong>Likes:</strong>
+         Hello Kitty, scrunchies, stationery, young adult books
+      </p>
+      <p>
+        <strong>Dislikes:</strong>
+        carrots, oatmeal, hypocrites
+      </p>
+      <p>
+        <h3 class="blue_text">Favorite Apps/Websites:</h3>
+        <ul id='list'>
+          <li><a href="https://www.youtube.com/">YouTube:</a> Jenna Marbles, SimplyNailogical, The Try Guys, and Safiya Nygaard are some of my favorite youtubers</li>
+          <li><a href="https://www.instagram.com/?hl=en">Instagram:</a> I follow study, fashion, and photography accounts and also use it to talk to friends</li>
+          <li><a href="https://www.spotify.com/us/">Spotify:</a> My favorite artists are Lana Del Rey, The Weeknd, Billie Eilish, and Halsey</li>
+        </ul>
+      </p>
+    </div>
+  </body>
+</html>

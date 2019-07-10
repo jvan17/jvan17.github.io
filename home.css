@@ -1,0 +1,40 @@
+//Modify ID with #, modify class with .{}
+body {
+  background-color: #ffe6e6;
+}
+
+img, #hk {
+  width: 20%;
+  height: 20%;
+  vertical-align: center;
+  border:2.5px solid white;
+}
+
+.blue_text {
+  color: blue;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 25px;
+}
+
+p, #list {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#name {
+  font-family: 'Kaushan Script', cursive;
+  color: #ff2b36;
+  font-size: 40px;
+  text-align: center;
+  border: 8px solid white;
+  padding: 15px;
+  margin-left: 35%;
+  margin-right: 35%;
+}
+
+#images, #hk {
+  padding: 0;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 20px;
+  text-align:center;
+}
