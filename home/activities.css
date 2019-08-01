@@ -1,0 +1,183 @@
+#tech_id {
+  width:200px;
+}
+
+#title {
+  text-align: center;
+  border-style: double;
+}
+
+#nav {
+  text-align: center;
+  //background-color: red;
+}
+
+#nav ul {
+  position: fixed;
+  width: 400px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#nav li {
+  display:inline-block;
+}
+
+#nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#nav li a:hover {
+  background-color: #F98E84;
+}
+
+#nav .active {
+  background-color: #F98E84;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  /* font-family: Arial; */
+}
+
+.header {
+  //text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+div.a {
+  text-align: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: .5s ease;
+  //background-color: #0d80f2; //blue
+  //background-color: #ff1a8c; //pink
+  text-align: center;
+  background-color: #F98E84;
+}
+
+/* #overlay {
+  height: 100%;
+  width: 100%;
+  background-color: #F98E84;
+} */
+
+
+.Container{
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+.Image {
+  display: block;
+  width: 100%;
+}
+
+.Overlay {
+  position: absolute;
+  transition: all .3s ease;
+  opacity: 0;
+  background-color: #F98E84;
+}
+.Text {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: translate(-50%, -50%);
+}
+
+/* .overlayLeft {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+} */
+
+.Container:hover .Overlay {
+  width: 100%;
+  opacity: 1
+}
+
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text:hover {
+  text-decoration: underline;
+}
+
+#footer {
+  background-color: #F44236;
+}
+
+.footercont {
+  width: 120%;
+}
+
+p {
+  font-size: 18px;
+}

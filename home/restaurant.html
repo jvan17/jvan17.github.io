@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- this is a comment -->
+    <!-- This is where the page info goes -->
+    <title> Restaurants for everyone! (California)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      body{background-image: url("back2.jpg");  }
+      .container {
+        position: relative;
+        width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #F98E84;
+  /* background-color: #4CAF50; */
+  color: white;
+  font-size: 16px;
+  margin-left: 70%;
+  position: relative;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+    </style>
+    <link rel = "stylesheet" href = "food.css">
+  </head>
+  <body>
+    <!-- NavBar -->
+  <div class="w3-top">
+  <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <ul id="nav">
+      <li><a href="Hometest.html">Home</a></li>
+      <li><a href="places2.html">Places</a></li>
+      <li><a href="activities.html">Activities</a></li>
+      <li><a class="active" href="restaurant.html">Restaurants</a></li>
+    </ul>
+  </div>
+  <!-- Navbar on small screens -->
+  <div id="navbar" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <ul id="navbar">
+      <li><a href="Hometest.html">Home</a></li>
+      <li><a href="places2.html">Places</a></li>
+      <li><a href="contact.asp">Activities</a></li>
+      <li><a class="active" href="restaurant.html">Restaurants</a></li>
+    </ul>
+  </div>
+  </div>
+  <!-- Header -->
+  <header class="w3-container w3-red w3-center" style="padding:90px 15px">
+    <h1 id="title" class="w3-margin w3-jumbo">Places to Visit in California</h1>
+    <div>
+      <font color="white" size ="+4"> California's Restaurants</font>
+      <!--<font color = "Indianred"> Local Kitchens! <br> Scroll below to seek the delicacies and their respective prices </font></p> -->
+    </div>
+  </header>
+  <center>
+    <!-- Slideshow container -->
+  <div>
+    <p style="border:1px; border-style:solid; border-color:#FE3004; padding: 1em;"> <font color = "Indianred"> Local Kitchens! <br> Scroll below to seek the delicacies and their respective prices. <br>Hover over the image to see the name of the shop, prices, and Yelp ratings </font></p>
+  </div>
+</center>
+    <!-- This is where the content goes -->
+    <script src = "food.js"></script>
+    <center>
+    <!-- <p>Hover over the image to see the name of the shop, prices, and Yelp ratings</p> -->
+    <h1>Bay Area</h1>
+
+    </center>
+
+
+    <div class="row">
+     <div class="column">
+       <div class="container">
+         <img src="Mariannes.jpg" alt="Avatar" class="image" style="width:400px;height:322px;">
+         <div class="middle">
+           <div class="text">Marianne's Ice Cream, $, ⭐️⭐️⭐️⭐️, Santa Cruz </div>
+         </div>
+       </div>
+     </div>
+
+     <div class="column">
+       <div class="container">
+           <img src="acai.jpg" alt="Avatar" class="image" style="width:400px;height:322px;">
+           <div class="middle">
+             <div class="text">Vitality Bowls, $$,⭐️⭐️⭐️⭐️, Cupertino </div>
+           </div>
+       </div>
+     </div>
+
+     <div class="column">
+       <div class="container">
+           <img src="boba.jpg" alt="Avatar" class="image" style="width:400px;height:322px;">
+           <div class="middle">
+             <div class="text">Boba Guys, $,⭐️⭐️⭐️⭐️⭐️, San Francisco</div>
+           </div>
+       </div>
+     </div>
+   </div>
+
+
+
+   <div class="row">
+    <div class="column">
+      <div class="container">
+        <img src="mynt.jpg" alt="Avatar" class="image" style="width:400px;height:322px;">
+        <div class="middle">
+          <div class="text">The Mynt, $$, ⭐️⭐️⭐️, San Jose (Indian Cuisine)</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="container">
+          <img src="pho.jpg" alt="Avatar" class="image" style="width:400px;height:322px;">
+          <div class="middle">
+            <div class="text">Pho 87, $,⭐️⭐️⭐️⭐️⭐️, Los Angeles (Vietnamese Cuisine)</div>
+          </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="container">
+          <img src="in.jpg" alt="Avatar" class="image" style="width:400px;height:322px;">
+          <div class="middle">
+            <div class="text">In and Out, $,⭐️⭐️⭐️⭐️, Sunnyvale</div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+   <div class="column">
+     <div class="container">
+       <img src="hotpot.jpg" alt="Avatar" class="image" style="width:400px;height:322px;">
+       <div class="middle">
+         <div class="text">Mongolian Hot Pot, $$$, ⭐️⭐️⭐️⭐️, Milptas (Chinese Cuisine)</div>
+       </div>
+     </div>
+   </div>
+
+   <div class="column">
+     <div class="container">
+         <img src="donuts.jpg" alt="Avatar" class="image" style="width:400px;height:322px;">
+         <div class="middle">
+           <div class="text">Krispy Kreme Donuts, $,⭐️⭐️⭐️, (LA, SJ, SF)</div>
+         </div>
+     </div>
+   </div>
+
+   <div class="column">
+     <div class="container">
+         <img src="salsa1.jpg" alt="Avatar" class="image" style="width:400px;height:322px;">
+         <div class="middle">
+           <div class="text">La Salsa, $,⭐️⭐️⭐️⭐️, Mountain View </div>
+         </div>
+     </div>
+   </div>
+ </div>
+<br></br>
+
+
+    <div>
+  <div class="row">
+ <div class="column">
+   <center>
+     <br>
+   </br>
+   <br>
+ </br>
+ <br>
+</br>
+   <h1> Light, Informal </h1>
+ </center>
+ <center>
+   <div>
+     <a href = "https://www.rubios.com/restaurant-locations/california/san-jose/san-jose-saratoga"> Mexican Cuisine (Tapas)</a>
+   </div>
+ <div>
+   <a href ="http://www.bobaguys.com/menu-1"> Boba selections </a>
+
+ </div>
+ <div>
+   <a href = "https://www.sushiheaven.net/"> Sushi Boat </a>
+ </div>
+</center>
+ </div>
+ <div class="column">
+   <center>
+   <img src="stacks.jpg" alt="image collage" style="width:200px;height:350px;"></img>
+
+   <img src="https://www.unicohotelrivieramaya.com/globalassets/media-unico/one-size-images/unico_restaurants.jpg" alt="W3Schools.com" style="width:200px;height:350px;"></img>
+ </center>
+ </div>
+ <div class="column">
+   <center>
+     <br>
+   </br>
+   <br>
+ </br>
+ <br>
+</br>
+  <h1> Dark, Formal </h1>
+  <div>
+    <a href = "https://www.orchardcitykitchen.com/"> Orchard City Kitchen </a>
+  </div>
+  <div>
+    <a href = "https://www.lafondue.com/"> Le Fondue </a>
+  </div>
+  <div>
+    <a href = "https://www.flightsrestaurants.com/"> Flights </a>
+  </div>
+
+ </center>
+ </div>
+</div>
+<center>
+    <h1>⭐^ What kind of dining environment do you prefer?^⭐</h1>
+    </div>
+<br></br>
+<div>
+  <center>
+    <strong><pre id="titlebottom">
+      A day in San Jose, California
+    </pre>
+    <pre></strong>
+      Click the dots on the bottom or arrows on the side to view slideshow
+    </pre>
+  </center>
+</div>
+
+    <div class="slideshow-container">
+    </center>
+
+      <!-- Full-width images with number and caption text -->
+      <center>
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 4</div>
+        <img src="breakfast.jpg" style="width:400px;height:322px;">
+        <div class="text2"><font color = "white"> You wake up and get ready for breakfast </font> </div>
+      </div>
+
+      <div class="mySlides fade" style="display: none">
+        <div class="numbertext">2 / 4</div>
+        <img src="lunch.jpg" style="width:400px;height:322px;">
+        <div class="text2"> You pick up your forks and knives for lunch </div>
+      </div>
+
+      <div class="mySlides fade" style = "display: none">
+        <div class="numbertext">3 / 4</div>
+        <img src="dinner.jpg" style="width:400px;height:322px;">
+        <div class="text2"> You sit across your family as you eat dinner</div>
+      </div>
+
+      <div class="mySlides fade" style = "display: none">
+        <div class="numbertext">4 / 4</div>
+        <img src="dimsum.jpg" style="width:400px;height:322px;">
+        <div class="text2"> A little late night snack (shh)</div>
+      </div>
+    </center>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <br>
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class ="dot" onclick= "currentSlide(4)"></span>
+    </div>
+
+  </body>
+  <footer id="footer" class="w3-container w3-padding-64 w3-center w3-opacity">
+  </footer>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Places to Visit!</title>
+    <link rel = "stylesheet" href="home.css">
+    <script src="home.js"></script>
+  </head>
+  <body>
+  <!--NavBar-->
+  <div class="w3-top">
+  <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+  </div>
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 1</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 2</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 3</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 4</a>
+  </div>
+</div>
+    <div id="navbar">
+    <ul id="nav">
+      <li><a class="active" href="Home.html">Home</a></li>
+      <li><a href="../places.html">Places</a></li>
+      <li><a href="contact.asp">Activities</a></li>
+      <li><a href="about.asp">Restaurants</a></li>
+    </ul>
+  </div>
+<!--header-->
+  <header class="w3-container w3-red w3-center" style="padding:128px 16px">
+    <h1 class="w3-margin w3-jumbo">Places to Visit in California</h1>
+  </header>
+
+  <script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+    <div class="content">
+      <h2>Overview</h2>
+      <p>Welcome to our website! Here, you can find popular, touristy locations or even hidden gems to visit in California. The options range from the outdoors, shopping malls, museums, or restaurants. Start exploring!</p>
+      <br></br>
+      <div id=centerimg>
+        <img src="bridge.jpeg"></img>
+        <img src="cali.jpg"></img>
+        <img src="uni.jpg"></img>
+      </div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur elementum, risus tristique ullamcorper porttitor, nunc turpis commodo neque, quis porta lacus ipsum ac sem. Sed id dolor sapien. Ut fringilla ligula eu ex tristique, at fringilla risus tempus. Cras condimentum faucibus magna quis pulvinar. Cras ut metus eu nisi tincidunt convallis et sed urna. Fusce pharetra libero ipsum, a varius velit posuere et. Duis volutpat sem in urna vestibulum convallis. Curabitur est erat, vestibulum in nibh in, condimentum ultricies quam. Duis suscipit aliquet elit at mattis. Nam ac ipsum sem.
+      Aliquam a euismod lacus. In id nunc faucibus, ornare dolor sed, elementum eros. Aliquam sed ultrices mauris. Nulla viverra sed erat id egestas. Mauris consectetur sapien orci, vel rhoncus lacus ultricies sit amet. Cras vestibulum rutrum magna ut facilisis. In non elit mi. Phasellus vitae metus quis enim eleifend suscipit. Donec mattis lobortis diam et ultrices. Pellentesque a metus a nisi interdum imperdiet. Vestibulum in lacus et tellus mattis suscipit. Aenean nec nulla fermentum, euismod augue non, feugiat felis. Vivamus vehicula maximus ligula. Fusce sit amet nisl nisl. Donec id orci non orci condimentum vehicula.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse efficitur diam in diam elementum feugiat. Phasellus lobortis ac est tempor pretium. Donec vehicula dictum velit, vel venenatis erat bibendum sed. Ut vel sem metus. Donec ultrices magna a mi venenatis ultrices. Cras laoreet, nibh nec egestas porta, diam ipsum suscipit metus, ut mattis orci nibh vitae urna. Curabitur sed consequat libero. Mauris eros lorem, vehicula nec lacus in, mattis facilisis erat. Nullam commodo nulla pellentesque augue ullamcorper mattis. Curabitur malesuada facilisis aliquam.</p>
+  </div>
+  </body>
+</html>
